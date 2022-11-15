@@ -1,1 +1,1 @@
-![alt text](card.png)
+![alt text](Masaüstü/card.png)
