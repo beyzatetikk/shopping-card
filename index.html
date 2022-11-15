@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a5072d932d.js" crossorigin="anonymous"></script>
+    <title>Beauty</title>
+    <style>
+        .photo_section img {
+            width: 100%;
+            height: 400px;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+
+        }
+
+        .shopping_card {
+            display: flex;
+            background: #FFEFD5;
+            width: 50%;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+            margin: auto;
+            margin-top: 190px;
+            box-shadow: 20px 20px 50px 15px bisque;
+
+        }
+
+        .text {
+            padding-left: 20px;
+            color: #454549;
+        }
+
+        .text2 {
+            padding-left: 20px;
+        }
+
+        .text3 {
+            padding-left: 20px;
+            color: #454549;
+        }
+
+        .money {
+            padding-left: 20px;
+        }
+
+        .money2 {
+            margin-left: 10%;
+            margin-top: 30px;
+            text-decoration: line-through;
+            color: #454549;
+        }
+
+        .money_section {
+            display: flex;
+        }
+
+        .addbutton button {
+            width: 200px;
+            height: 40px;
+            background-color: black;
+            color: white;
+            border-radius: 12px;
+            margin-left: 35px;
+            cursor: pointer;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            background-color: #DEB887;
+        }
+
+
+        .favori {
+            margin-left: 15px;
+            font-size: large;
+            margin-top: 8px;
+            cursor: pointer;
+            padding-right: 10px;
+        }
+
+        .card {
+            display: flex;
+        }
+
+        .favori:hover {
+            color: #CD853F;
+
+        }
+
+        @media only screen and (max-width: 600px) {
+            .shopping_card {
+                flex-direction: column;
+                width: 75%;
+                margin-top: 45px;
+            }
+
+            .photo_section img {
+                border-bottom-left-radius: 0;
+                border-top-right-radius: 20px;
+
+            }
+
+            .addbutton {
+                padding-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shopping_card">
+        <div class="photo_section">
+            <img src="https://media.karousell.com/media/photos/products/2021/10/8/gabrielle_chanel_essence_eau_d_1633684114_962fa9f9_progressive.jpg"
+                alt="">
+
+        </div>
+
+        <div class="description_section">
+            <h5 class="text">P E R F U M E</h5>
+            <h2 class="text2">Gabrielle <br> Essence Eau <br> De Parfum</h2>
+            <p class="text3"> A floral, solar and voluptuous <br> interpretation composed by <br> Olivier Polge,
+                Perfumer-Creator <br> for the House of CHANEL.</p>
+            <div class="money_section">
+                <h1 class="money"> $149.99</h1>
+                <h4 class="money2">$169.99</h4>
+            </div>
+
+
+            <div class="card">
+                <div class="addbutton">
+                    <button class><i class="fa-solid fa-cart-shopping"></i> Add to Card </button>
+
+                </div>
+                <div class="favori">
+                    <i class="fa fa-heart"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
