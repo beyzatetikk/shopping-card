@@ -1,1 +1,1 @@
-![alt text](C:\Users\Beyza\Desktop\card.png)
+![alt text](Desktop\card.png)
